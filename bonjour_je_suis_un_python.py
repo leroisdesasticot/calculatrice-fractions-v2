@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+ HEAD
 
 import streamlit as st
 from fractions import Fraction
@@ -72,7 +72,7 @@ if st.button("Calculer"):
                     f"{steps.replace(chr(10), '<br>')}</div>", unsafe_allow_html=True)
 
     except Exception as e:
-=======
+
 
 import streamlit as st
 from fractions import Fraction
@@ -146,5 +146,5 @@ if st.button("Calculer"):
                     f"{steps.replace(chr(10), '<br>')}</div>", unsafe_allow_html=True)
 
     except Exception as e:
->>>>>>> 562c0b277f956f5d920f94b593761522750a6443
+ 562c0b277f956f5d920f94b593761522750a6443
         st.error(f"Erreur : {e}")
